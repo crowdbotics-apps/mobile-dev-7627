@@ -5,6 +5,7 @@ import {createDrawerNavigator} from 'react-navigation-drawer';
 import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
+import EmailAuth8961Navigator from '../features/EmailAuth8961/navigator';
 import CalendarView8960Navigator from '../features/CalendarView8960/navigator';
 
 /**
@@ -14,6 +15,7 @@ import CalendarView8960Navigator from '../features/CalendarView8960/navigator';
 const AppNavigator = {
 
     //@BlueprintNavigationInsertion
+EmailAuth8961: { screen: EmailAuth8961Navigator },
 CalendarView8960: { screen: CalendarView8960Navigator },
 
     /** new navigators can be added here */
